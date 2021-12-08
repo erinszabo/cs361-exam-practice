@@ -1,5 +1,3 @@
-# CS 361 Exam Practice
-
 class Thang
 
   def initialize(x, y, b)
@@ -8,7 +6,6 @@ class Thang
     @depth = b
   end
 
-  # Calculate the volume (w x h x d)
   def volume
     return @width * @height / @depth
   end

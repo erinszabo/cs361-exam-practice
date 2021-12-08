@@ -10,25 +10,10 @@ class Thang
 
   # Calculate the volume (w x h x d)
   def volume
-        return @width * @height / @depth
-end
-end
+    return @width * @height / @depth
+  end
 
+end
 
 cube = Thang.new(10, 20, 30)
 puts cube.volume
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

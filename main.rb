@@ -1,9 +1,9 @@
 class Thang
 
-  def initialize(x, y, b)
-    @width = x
-    @height = y
-    @depth = b
+  def initialize(width, height, depth)
+    @width = width
+    @height = height
+    @depth = depth
   end
 
   def volume
